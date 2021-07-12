@@ -38,15 +38,17 @@ html(lang='en')
                         li.nav-item
                             a.nav-link(href='#services') Преимущества
                         li.nav-item
-                            a.nav-link(href='#about') Точки разсширения
+                            a.nav-link(href='#about') Как зарядится
+                        li.nav-item
+                            a.nav-link(href='#portfolio') Точки расширения
                         li.nav-item
                             a.nav-link(href='#team') Team
         // Masthead
         header.masthead
             .container
-                .masthead-subheading Теперь заряжать самокаты еще проще!
-                .masthead-heading.text-uppercase Заряди свой самокат безопасно, пока работаешь
-                a.btn.btn-primary.btn-xl.text-uppercase(href='#services') Хочу знать больше
+                .masthead-subheading Сохрани время экологично
+                .masthead-heading.text-uppercase Заряди себя и природу
+                a.btn.btn-primary.btn-xl.text-uppercase(href='#services') Хочу подзарядится
 
         // Services
         section#services.page-section
@@ -61,233 +63,182 @@ html(lang='en')
                             i.fas.fa-leaf.fa-stack-1x.fa-inverse
                         h4.my-3 Экологично
                         p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                            | Мы используем только экологичные источники электричества: водная энергия, использование технологическое излишков газа и ветряки
                     .col-md-4
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
                             i.fas.fa-biking.fa-stack-1x.fa-inverse
                         h4.my-3 Мобильно
                         p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+                            | Наши станции занимают маленькую площадь и требуют немного людей для обслуживания. А вам позволяют быть на коне
                     .col-md-4
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
                             i.fas.fa-lock.fa-stack-1x.fa-inverse
                         h4.my-3 Безопасно
                         p.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-
-        // Portfolio Grid
-        //- section#portfolio.page-section.bg-light
-        //-     .container
-        //-         .text-center
-        //-             h2.section-heading.text-uppercase Portfolio
-        //-             h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
-        //-         .row
-        //-             .col-lg-4.col-sm-6.mb-4
-        //-                 // Portfolio item 1
-        //-                 .portfolio-item
-        //-                     a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal1')
-        //-                         .portfolio-hover
-        //-                             .portfolio-hover-content
-        //-                                 i.fas.fa-plus.fa-3x
-        //-                         img.img-fluid(src='assets/img/portfolio/1.jpg', alt='...')
-        //-                     .portfolio-caption
-        //-                         .portfolio-caption-heading Threads
-        //-                         .portfolio-caption-subheading.text-muted Illustration
-        //-             .col-lg-4.col-sm-6.mb-4
-        //-                 // Portfolio item 2
-        //-                 .portfolio-item
-        //-                     a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal2')
-        //-                         .portfolio-hover
-        //-                             .portfolio-hover-content
-        //-                                 i.fas.fa-plus.fa-3x
-        //-                         img.img-fluid(src='assets/img/portfolio/2.jpg', alt='...')
-        //-                     .portfolio-caption
-        //-                         .portfolio-caption-heading Explore
-        //-                         .portfolio-caption-subheading.text-muted Graphic Design
-        //-             .col-lg-4.col-sm-6.mb-4
-        //-                 // Portfolio item 3
-        //-                 .portfolio-item
-        //-                     a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal3')
-        //-                         .portfolio-hover
-        //-                             .portfolio-hover-content
-        //-                                 i.fas.fa-plus.fa-3x
-        //-                         img.img-fluid(src='assets/img/portfolio/3.jpg', alt='...')
-        //-                     .portfolio-caption
-        //-                         .portfolio-caption-heading Finish
-        //-                         .portfolio-caption-subheading.text-muted Identity
-        //-             .col-lg-4.col-sm-6.mb-4.mb-lg-0
-        //-                 // Portfolio item 4
-        //-                 .portfolio-item
-        //-                     a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal4')
-        //-                         .portfolio-hover
-        //-                             .portfolio-hover-content
-        //-                                 i.fas.fa-plus.fa-3x
-        //-                         img.img-fluid(src='assets/img/portfolio/4.jpg', alt='...')
-        //-                     .portfolio-caption
-        //-                         .portfolio-caption-heading Lines
-        //-                         .portfolio-caption-subheading.text-muted Branding
-        //-             .col-lg-4.col-sm-6.mb-4.mb-sm-0
-        //-                 // Portfolio item 5
-        //-                 .portfolio-item
-        //-                     a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal5')
-        //-                         .portfolio-hover
-        //-                             .portfolio-hover-content
-        //-                                 i.fas.fa-plus.fa-3x
-        //-                         img.img-fluid(src='assets/img/portfolio/5.jpg', alt='...')
-        //-                     .portfolio-caption
-        //-                         .portfolio-caption-heading Southwest
-        //-                         .portfolio-caption-subheading.text-muted Website Design
-        //-             .col-lg-4.col-sm-6
-        //-                 // Portfolio item 6
-        //-                 .portfolio-item
-        //-                     a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal6')
-        //-                         .portfolio-hover
-        //-                             .portfolio-hover-content
-        //-                                 i.fas.fa-plus.fa-3x
-        //-                         img.img-fluid(src='assets/img/portfolio/6.jpg', alt='...')
-        //-                     .portfolio-caption
-        //-                         .portfolio-caption-heading Window
-        //-                         .portfolio-caption-subheading.text-muted Photography
+                            | На своих заправках мы заботимся о безопасности Ваших электросамокатов. Состояние Вашего самоката на точке можно отслеживать удаленно
 
         // About
         section#about.page-section
             .container
                 .text-center
-                    h2.section-heading.text-uppercase Точки разсширения
-                    h3.section-subheading.text-muted Стратегия развития электрической среды в городе
+                    h2.section-heading.text-uppercase Как начать заряжаться
                 ul.timeline
                     li
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/1.jpg', alt='...')
                         .timeline-panel
                             .timeline-heading
-                                h4 2020-2025
-                                h4.subheading Начало развития
-                            .timeline-body
-                                p.text-muted
-                                    | Мы установим зарядки для электросамокатов в городах
+                                h3 1. Скачай приложение
+                            //- .timeline-body
+                            //-     h5.text-muted
+                            //-         | Нас можно будет найти в playmarket и appstore
                     li.timeline-inverted
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/2.jpg', alt='...')
                         .timeline-panel
                             .timeline-heading
-                                h4 2025-2039
-                                h4.subheading Скажем да электроавтомобилям
-                            .timeline-body
-                                p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                h3 2. Найди ближайшую свободную заправку
+                            //- .timeline-body
+                            //-     p.text-muted
+                            //-         | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
                     li
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/3.jpg', alt='...')
                         .timeline-panel
                             .timeline-heading
-                                h4 December 2015
-                                h4.subheading Transition to Full Service
+                                h3 3. Накорми коня, пока занимаешься делами
                             .timeline-body
-                                p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                //- p.text-muted
+                                //-     | Мы сможем заряжать не только самокаты, но и велосипеды, и электроколяски для инвалидов
                     li.timeline-inverted
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/4.jpg', alt='...')
                         .timeline-panel
                             .timeline-heading
-                                h4 July 2020
-                                h4.subheading Phase Two Expansion
+                                h3 4. Оплати через приложение
                             .timeline-body
-                                p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                //- p.text-muted
+                                //-     | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
                     li.timeline-inverted
                         .timeline-image
                             h4
-                                | Be Part
+                                | Быть
                                 br
-                                | Of Our
+                                | мобильным
                                 br
-                                | Story!
+                                | экологично!
+
+        // Portfolio Grid
+        section#portfolio.page-section.bg-light
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Точки расширения  
+                .row
+                    .col-lg-4.col-sm-6.mb-4
+                        // Portfolio item 1
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal1')
+                                //- .portfolio-hover
+                                //-     .portfolio-hover-content
+                                //-         i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/1.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Драйвер инфрастуктуры для электромобилей
+                                //- .portfolio-caption-subheading.text-muted Illustration
+                    .col-lg-4.col-sm-6.mb-4
+                        // Portfolio item 2
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal2')
+                                //- .portfolio-hover
+                                //-     .portfolio-hover-content
+                                //-         i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/2.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Увеличение спроса на экологичность
+                                //- .portfolio-caption-subheading.text-muted Graphic Design
+                    .col-lg-4.col-sm-6.mb-4
+                        // Portfolio item 3
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal3')
+                                //- .portfolio-hover
+                                //-     .portfolio-hover-content
+                                //-         i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/3.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Новые устройства
+                                //- .portfolio-caption-subheading.text-muted Далее можно будет заряжать не только самокаты, но и велоспеды, электрические коляски и роверы
+                    .col-lg-4.col-sm-6.mb-4.mb-lg-0
+                        // Portfolio item 4
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal4')
+                                //- .portfolio-hover
+                                //-     .portfolio-hover-content
+                                //-         i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/4.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Сдай мусор и получи бонус
+                                //- .portfolio-caption-subheading.text-muted Branding
+                    .col-lg-4.col-sm-6.mb-4.mb-sm-0
+                        // Portfolio item 5
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal5')
+                                //- .portfolio-hover
+                                //-     .portfolio-hover-content
+                                //-         i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/5.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Бонусная программа
+                                //- .portfolio-caption-subheading.text-muted Website Design
 
         // Team
         section#team.page-section.bg-light
             .container
                 .text-center
-                    h2.section-heading.text-uppercase Our Amazing Team
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h2.section-heading.text-uppercase Наша команда
                 .row
                     .col-lg-4
                         .team-member
                             img.mx-auto.rounded-circle(src='assets/img/team/1.jpg', alt='...')
-                            h4 Parveen Anand
-                            p.text-muted Lead Designer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-twitter
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-facebook-f
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-linkedin-in
-                    .col-lg-4
-                        .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/2.jpg', alt='...')
-                            h4 Diana Petersen
-                            p.text-muted Lead Marketer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-twitter
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-facebook-f
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-linkedin-in
-                    .col-lg-4
-                        .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/3.jpg', alt='...')
-                            h4 Larry Parker
-                            p.text-muted Lead Developer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-twitter
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-facebook-f
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-linkedin-in
-
-        section#team.page-section.bg-light
-            .container
-                .row
+                            h4 Ранэль Галеев
+                            p.text-muted Экономист. Инженер
+                            
                     .col-lg-4
                         .team-member
                             img.mx-auto.rounded-circle(src='assets/img/team/1.jpg', alt='...')
-                            h4 Parveen Anand
-                            p.text-muted Lead Designer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-twitter
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-facebook-f
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-linkedin-in
+                            h4 Руслан Жанагабылов
+                            p.text-muted Модератор. Преподаватель УГТУ
+                            
                     .col-lg-4
                         .team-member
                             img.mx-auto.rounded-circle(src='assets/img/team/2.jpg', alt='...')
-                            h4 Diana Petersen
-                            p.text-muted Lead Marketer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-twitter
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-facebook-f
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-linkedin-in
+                            h4 Екатерина Тарапатина
+                            p.text-muted UI designer. Frontend developer
+                            
+                .row
                     .col-lg-4
                         .team-member
                             img.mx-auto.rounded-circle(src='assets/img/team/3.jpg', alt='...')
-                            h4 Larry Parker
-                            p.text-muted Lead Developer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-twitter
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-facebook-f
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-linkedin-in
-                .row
-                    .col-lg-8.mx-auto.text-center
-                        p.large.text-muted
-                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+                            h4 Диана Байбикова
+                            p.text-muted Маркетолог
+                            
+                    .col-lg-4
+                        .team-member
+                            img.mx-auto.rounded-circle(src='assets/img/team/2.jpg', alt='...')
+                            h4 Ильдар Насибуллин
+                            p.text-muted Ведущий геолог TATNEFT
+                           
+                    .col-lg-4
+                        .team-member
+                            img.mx-auto.rounded-circle(src='assets/img/team/3.jpg', alt='...')
+                            h4 Игорь Смирнов
+                            p.text-muted Посланник ЦУР
+                            
+                //- .row
+                //-     .col-lg-8.mx-auto.text-center
+                //-         p.large.text-muted
+                //-             | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
 
         // Clients
         //- div.py-5
@@ -308,113 +259,103 @@ html(lang='en')
 
         div.py-5
             .container
-                a.btn.btn-primary.btn-xl.text-uppercase(href='#') Получить данные рассчетов
+                a.btn.btn-primary.btn-xl.text-uppercase(href='https://drive.google.com/file/d/1glJHGG7uxee7UNO7ymi5R-Aa56SIfbk5/view?usp=sharing', target='blank') Получить данные рассчетов
 
-        // Contact
-        section#contact.page-section
-            .container
-                .text-center
-                    h2.section-heading.text-uppercase Contact Us
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+        //- // Contact
+        //- section#contact.page-section
+        //-     .container
+        //-         .text-center
+        //-             h2.section-heading.text-uppercase Contact Us
+        //-             h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
 
-                // * * * * * * * * * * * * * * *
-                // * * SB Forms Contact Form * *
-                // * * * * * * * * * * * * * * *
+        //-         // * * * * * * * * * * * * * * *
+        //-         // * * SB Forms Contact Form * *
+        //-         // * * * * * * * * * * * * * * *
 
-                // This form is pre-integrated with SB Forms.
-                // To make this form functional, sign up at
-                // https://startbootstrap.com/solution/contact-forms
-                // to get an API token!
+        //-         // This form is pre-integrated with SB Forms.
+        //-         // To make this form functional, sign up at
+        //-         // https://startbootstrap.com/solution/contact-forms
+        //-         // to get an API token!
 
-                form#contactForm(data-sb-form-api-token='API_TOKEN')
-                    .row.align-items-stretch.mb-5
-                        .col-md-6
-                            .form-group
+        //-         form#contactForm(data-sb-form-api-token='API_TOKEN')
+        //-             .row.align-items-stretch.mb-5
+        //-                 .col-md-6
+        //-                     .form-group
 
-                                // Name input
-                                input#name.form-control(
-                                    type='text',
-                                    placeholder='Your Name *',
-                                    data-sb-validations='required'
-                                )
-                                .invalid-feedback(data-sb-feedback='name:required')
-                                    | A name is required.
+        //-                         // Name input
+        //-                         input#name.form-control(
+        //-                             type='text',
+        //-                             placeholder='Your Name *',
+        //-                             data-sb-validations='required'
+        //-                         )
+        //-                         .invalid-feedback(data-sb-feedback='name:required')
+        //-                             | A name is required.
 
-                            .form-group
+        //-                     .form-group
 
-                                // Email address input
-                                input#email.form-control(
-                                    type='email',
-                                    placeholder='Your Email *',
-                                    data-sb-validations='required,email'
-                                )
-                                .invalid-feedback(data-sb-feedback='email:required')
-                                    | An email is required.
-                                .invalid-feedback(data-sb-feedback='email:email')
-                                    | Email is not valid.
+        //-                         // Email address input
+        //-                         input#email.form-control(
+        //-                             type='email',
+        //-                             placeholder='Your Email *',
+        //-                             data-sb-validations='required,email'
+        //-                         )
+        //-                         .invalid-feedback(data-sb-feedback='email:required')
+        //-                             | An email is required.
+        //-                         .invalid-feedback(data-sb-feedback='email:email')
+        //-                             | Email is not valid.
 
-                            .form-group.mb-md-0
+        //-                     .form-group.mb-md-0
 
-                                // Phone number input
-                                input#phone.form-control(
-                                    type='tel',
-                                    placeholder='Your Phone *',
-                                    data-sb-validations='required'
-                                )
-                                .invalid-feedback(data-sb-feedback='phone:required')
-                                    | A phone number is required.
+        //-                         // Phone number input
+        //-                         input#phone.form-control(
+        //-                             type='tel',
+        //-                             placeholder='Your Phone *',
+        //-                             data-sb-validations='required'
+        //-                         )
+        //-                         .invalid-feedback(data-sb-feedback='phone:required')
+        //-                             | A phone number is required.
 
-                        .col-md-6
-                            .form-group.form-group-textarea.mb-md-0
+        //-                 .col-md-6
+        //-                     .form-group.form-group-textarea.mb-md-0
 
-                                // Message input
-                                textarea#message.form-control(
-                                    placeholder='Your Message *',
-                                    data-sb-validations='required'
-                                )
-                                .invalid-feedback(data-sb-feedback='message:required')
-                                    | A message is required.
+        //-                         // Message input
+        //-                         textarea#message.form-control(
+        //-                             placeholder='Your Message *',
+        //-                             data-sb-validations='required'
+        //-                         )
+        //-                         .invalid-feedback(data-sb-feedback='message:required')
+        //-                             | A message is required.
 
-                    // Submit success message
-                    //
-                    // This is what your users will see when the form
-                    // has successfully submitted
+        //-             // Submit success message
+        //-             //
+        //-             // This is what your users will see when the form
+        //-             // has successfully submitted
 
-                    #submitSuccessMessage.d-none
-                        .text-center.text-white.mb-3
-                            .fw-bolder Form submission successful!
-                            | To activate this form, sign up at
-                            br
-                            a(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
+        //-             #submitSuccessMessage.d-none
+        //-                 .text-center.text-white.mb-3
+        //-                     .fw-bolder Form submission successful!
+        //-                     | To activate this form, sign up at
+        //-                     br
+        //-                     a(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
 
-                    // Submit error message
-                    //
-                    // This is what your users will see when there is
-                    // an error submitting the form
+        //-             // Submit error message
+        //-             //
+        //-             // This is what your users will see when there is
+        //-             // an error submitting the form
 
-                    #submitErrorMessage.d-none
-                        .text-center.text-danger.mb-3 Error sending message!
+        //-             #submitErrorMessage.d-none
+        //-                 .text-center.text-danger.mb-3 Error sending message!
 
-                    // Submit Button
-                    .text-center
-                        button#submitButton.btn.btn-primary.btn-xl.text-uppercase.disabled(type='submit') Send Message
+        //-             // Submit Button
+        //-             .text-center
+        //-                 button#submitButton.btn.btn-primary.btn-xl.text-uppercase.disabled(type='submit') Send Message
 
         // Footer
         footer.footer.py-4
             .container
                 .row.align-items-center
                     .col-lg-4.text-lg-start
-                        | Copyright &copy; Your Website 2021
-                    .col-lg-4.my-3.my-lg-0
-                        a.btn.btn-dark.btn-social.mx-2(href='#!')
-                            i.fab.fa-twitter
-                        a.btn.btn-dark.btn-social.mx-2(href='#!')
-                            i.fab.fa-facebook-f
-                        a.btn.btn-dark.btn-social.mx-2(href='#!')
-                            i.fab.fa-linkedin-in
-                    .col-lg-4.text-lg-end
-                        a.link-dark.text-decoration-none.me-3(href='#!') Privacy Policy
-                        a.link-dark.text-decoration-none(href='#!') Terms of Use
+                        | Copyright &copy; TATCHARGE 2021
 
         // Portfolio Modals
         include includes/portfolio-modal-1
